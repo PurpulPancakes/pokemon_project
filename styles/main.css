@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0px;
 }
 
 html {
@@ -81,3 +81,90 @@ article div {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+aside{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h2{
+    margin-top: 3px;
+    margin-bottom: 8px;
+}
+
+h3{
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+blockquote img{
+    width: 75%;
+}
+
+aside ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li{
+    padding-left: 150px;
+}
+
+#plz:first-of-type{
+    display: block;
+    padding: 10px;
+    border: red 10px solid;
+    margin: 10px auto;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    max-width: 400px;
+    text-decoration: none;
+    min-width: 500px;
+    max-height: 340px;
+    display: grid;
+    grid-template-rows: .1fr .5fr;
+    margin-top: 115px;
+}
+
+aside content:first-of-type{
+    display: block;
+    padding: 10px;
+    border: red 10px solid;
+    margin: 10px auto;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    max-width: 400px;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+aside content:nth-of-type(2){
+    display: block;
+    padding: 10px;
+    border: red 10px solid;
+    margin: 10px auto;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+aside content:nth-of-type(3){
+    display: block;
+    padding: 10px;
+    border: red 10px solid;
+    margin: 10px auto;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
