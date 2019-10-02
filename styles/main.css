@@ -82,6 +82,11 @@ article div {
     grid-template-columns: 1fr 1fr;
 }
 
+div p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 aside{
     list-style: none;
     display: grid;
@@ -168,3 +173,12 @@ aside content:nth-of-type(3){
     grid-template-columns: 1fr 1fr;
 }
 
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover, a:active{
+    color: lightgray;
+    text-decoration: underline;
+}
