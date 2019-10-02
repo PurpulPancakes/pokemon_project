@@ -1,0 +1,37 @@
+html{
+    margin: 0%;
+    padding: 0%;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+}
+body > header{
+    background-color: red;
+}
+body > header img{
+    display: block;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 25%;
+}
+body > img{
+    width: 10%;
+}
+div{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ background-color: red;
+ padding: 10px;
+}
+div img{
+    margin-left: auto;
+    margin-right: auto;
+}
+div a:link, div a:visited{
+    color: white;
+    text-decoration: none;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+div a:hover, div a:active{
+    color: lightgray;
+    text-decoration: underline;
+}
