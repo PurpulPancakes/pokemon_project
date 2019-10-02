@@ -35,3 +35,6 @@ div a:hover, div a:active{
     color: lightgray;
     text-decoration: underline;
 }
+div img:hover, div img:active{
+    filter: brightness(50%);
+}

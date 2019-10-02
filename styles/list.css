@@ -61,3 +61,6 @@ section a:hover, section a:active{
 h1{
     color: red;
 }
+aside img:hover, aside img:active{
+    filter: brightness(50%);
+}
