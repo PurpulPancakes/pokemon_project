@@ -33,15 +33,7 @@ nav a:hover, nav a:active{
     color: lightgray;
     text-decoration: underline;
 }
-article{
+aside{
     display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-section{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-}
-div{
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 1fr 2fr 2fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }

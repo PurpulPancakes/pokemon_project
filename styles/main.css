@@ -82,6 +82,11 @@ article div {
     grid-template-columns: 1fr 1fr;
 }
 
+div p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 aside{
     list-style: none;
     display: grid;
